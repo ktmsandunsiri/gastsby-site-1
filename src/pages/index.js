@@ -1,4 +1,5 @@
 import * as React from "react"
+import Layout from "./components/layout"
 import MyComponent from "./components/my-component"
 
 // styles
@@ -139,7 +140,9 @@ const IndexPage = () => {
           🎉🎉🎉
         </span>
       </h1>
-      <MyComponent/>
+      <Layout pageTitle="Home Page">
+        <p>I'm making this by following the Gatsby Tutorial.</p>
+      </Layout>
     </main>
   )
 }
